@@ -1,3 +1,5 @@
+git : https://github.com/keunh/CafeOrder
+
 ## 1. 데이터 구조 ERD
 
 ![img.png](erd.png)

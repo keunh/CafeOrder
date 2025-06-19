@@ -1,0 +1,23 @@
+### 회원 가입
+POST http://localhost:8080/api/v1/members/member
+Content-Type: application/json;charset=UTF-8
+
+{
+  "loginId": "kkk1234",
+  "name": "김하나",
+  "phoneNumber": "01012345678",
+  "gender": "W",
+  "birth": "901010"
+}
+
+### 회원 조회 API
+GET http://localhost:8080/api/v1/members/member/1
+Content-Type: application/json;charset=UTF-8
+
+### 탈퇴 API
+DELETE http://localhost:8080/api/v1/members/member/1
+Content-Type: application/json;charset=UTF-8
+
+### 탈퇴 복구 API
+PUT http://localhost:8080/api/v1/members/member/restore/1
+Content-Type: application/json;charset=UTF-8
